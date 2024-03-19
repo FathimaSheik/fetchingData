@@ -1,0 +1,70 @@
+body {
+    background-image: url('https://wallpaper.dog/large/5480468.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    min-height: 100vh; 
+}
+
+
+
+.container {
+    width: 700px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    text-align: center;
+}
+
+.city-container {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: left;
+    width: 400px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+}
+
+.city-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 150px; /* Adjust the height to make the image rectangle */
+    object-fit: cover;
+}
+
+.city-info {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+.city-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #E57373; /* Light Red */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F44336; /* Darker Red on hover */
+}
+
